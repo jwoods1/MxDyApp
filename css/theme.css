@@ -361,7 +361,7 @@ pre {
   text-shadow: none;
 }
 ::selection {
-  background: #1fa2d6;
+  background: rgba(0, 175, 216, 0.7);
   color: #ffffff;
   text-shadow: none;
 }
@@ -10100,7 +10100,7 @@ q {
   content: '';
   transform: skewX(-33deg);
   -webkit-transform: skewX(-33deg);
-  background: #0092b4;
+  background: rgba(103, 48, 211, 0.7);
   position: absolute;
   right: 33px;
   top: -30px;
@@ -10114,7 +10114,7 @@ q {
   content: '';
   transform: skewX(-33deg);
   -webkit-transform: skewX(-33deg);
-  background: #00afd8;
+  background: #6730d3;
   position: absolute;
   right: 39px;
   top: 0;
@@ -10123,7 +10123,8 @@ q {
   z-index: -1;
 }
 .tm-logo > img {
-  margin-top: 15px;
+  margin-top: 5px;
+  width:60px;
   vertical-align: top;
   display: inline-block;
   transform: rotate(0);
